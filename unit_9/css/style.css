@@ -5,16 +5,21 @@ body{
   font-family: 'Cormorant Garamond', serif;
 }
 
-h1{
+h1 {
   font-size: 55px;
   border-bottom: 4px solid #8F223A;
   display: inline-block;
+}
+
+h2 {
+  display: none;
 }
 
 p{
   font-size: 1.7em;
   float:left;
   text-align: justify;
+  padding-bottom: 1em;
 }
 
 #synopsis{
@@ -52,6 +57,11 @@ div {
   display: inline-block;
 }
 
+span {
+    background-color: #505B70; 
+    color: white;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -81,5 +91,11 @@ footer {
   #headline, #event, #hero {
     float:none;
     width: auto;
+  }
+
+  h2 {
+    font-size: 2em;
+    display: inline-block;
+    padding: 2%;
   }
 }
